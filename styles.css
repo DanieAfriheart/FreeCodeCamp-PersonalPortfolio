@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    /* height: 10vh; */
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    background-color: #BE3144;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 40vw;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+nav li{
+    justify-content: space-evenly;
+    padding: 1em;
+}
+nav li:hover{
+    background-color: #222224;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.Welcome-section{
+    background-color: #222224;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Welcome-section h1{
+    font-size: 3em;
+    margin: 0.5em;
+}
+.Welcome-section p{
+    color: #BE3144;
+    font-size: 2em;
+}
+
+#projects{
+    background-color: #45567D;
+    padding: 2em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projects-section-header{
+    font-size: 3em;
+    border-bottom: 2px solid white;
+}
+
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px, auto) !important;
+    grid-gap: 2em;
+}
+.grid-content img{
+    width: 30vw;
+    height: 50vh;
+}
+.project-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: #303841;
+    height: 10vh;
+}
+ a{
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 2em;
+    padding: 0.5em;
+    background-color: #303841;
+}
+
+.contact-section{
+    height: 70vh;
+    background-color: #303841;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 4px solid #BE3144;
+}
+.contact-section h1{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.contact-links i{
+    color: white;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.contact-links{
+    margin-top: 2em;
+}
+footer{
+    height: 20vh;
+    background-color: #303841;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+*{
+    /* border: 1px solid skyblue ; */
+}
